@@ -249,6 +249,10 @@ mark {
 		color: #fff;
 	}
 
+	input[type=submit] {
+    margin-bottom: 10px;
+	}
+	
 	.location > i {
 	display: inline-block;
 	margin: 0;
@@ -315,6 +319,10 @@ mark {
 	footer  a{
 		text-decoration: none;
 		color: #fff;
+	}
+
+	input[type=submit] {
+    margin-bottom: 10px;
 	}
 
 	.location > i {

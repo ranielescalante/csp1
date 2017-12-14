@@ -24,7 +24,7 @@ body {
 	padding: 40px;
 	margin:20% 10%;
 	text-align: center;
-	position: fixed;
+	position: absolute;
 }
 
 h1 {
