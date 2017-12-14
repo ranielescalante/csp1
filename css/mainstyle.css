@@ -14,7 +14,6 @@ body {
 	background: url(../img/header.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 100%;
 	background-attachment: fixed;
 	height: 100vh;
 }
@@ -25,7 +24,7 @@ body {
 	padding: 40px;
 	margin:20% 10%;
 	text-align: center;
-
+	position: fixed;
 }
 
 h1 {
@@ -72,7 +71,7 @@ h1 {
 		.jumbotron {
 		background: none;
 		padding: 40px;
-		margin:50% 10%;
+		margin:50% 20%;
 	}
 }
 
@@ -80,5 +79,9 @@ h1 {
 	 /*Desktop*/
 /*-----------------*/
 @media only	screen and (min-width: 969px){
-
+	.jumbotron {
+	background: none;
+	padding: 40px;
+	margin:20% 28%;
+	}
 }
