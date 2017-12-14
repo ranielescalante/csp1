@@ -16,6 +16,7 @@ body {
 	background-size: cover;
 	background-position: 100%;
 	background-attachment: fixed;
+	height: 100vh;
 }
 
 .jumbotron {
@@ -48,7 +49,7 @@ h1 {
 	 /*Mobile*/
 /*---------------*/
 @media only	screen and (max-width: 480px){
-		body {;
+		body {
 		background-position: 50%;
 	}
 
@@ -64,7 +65,7 @@ h1 {
 	 /*Tablet*/
 /*---------------*/
 @media only	screen and (min-width: 481px) and (max-width: 968px){
-	body {;
+	body {
 		background-position: 50%;
 	}
 
